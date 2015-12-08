@@ -1,4 +1,5 @@
 <?php
+	//Full "R"
 
 function changeDateFormats($ini){
     $pos = strpos($ini, '-');
