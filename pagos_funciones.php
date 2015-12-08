@@ -1,5 +1,5 @@
 <?php
-
+//nueva prueba
 function egresos_menuInicio() 
 {
     $hoy = date("Y-m-d");
