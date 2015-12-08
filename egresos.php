@@ -3,6 +3,7 @@
 	session_start();
 
 	include_once('egresos_funciones.php');
+	//DATOS DE PRUEBA
 	//DATOS DEL MODULO
 	liberar_bd();
 	$selectDatosModulo = 'CALL sp_sistema_select_datos_modulo('.$_SESSION["mod"].');';
